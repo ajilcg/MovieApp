@@ -2,8 +2,11 @@
   "name": "movieapp",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://ajilcg.github.io/Sample/",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -15,7 +18,6 @@
     "@mui/material": "^5.16.5",
     "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
-    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -27,6 +29,7 @@
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "gh-pages": "^6.1.1",
     "react-router-dom": "^6.26.0",
     "vite": "^5.3.4"
   }

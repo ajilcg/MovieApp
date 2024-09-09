@@ -18,5 +18,6 @@ export default defineConfig({
   plugins: [
     { enforce: 'pre', ...mdx() },
     react({ include: /\.(mdx|js|jsx|ts|tsx)$/ }),
+    
   ],
 })

@@ -10,6 +10,7 @@ react({ jsxImportSource: "@emotion/react" });
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
+    <h1>Test</h1>
     <App />    
     </BrowserRouter>
   </React.StrictMode>,
